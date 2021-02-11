@@ -28,6 +28,7 @@ cd "$build"
 git clone https://github.com/keystone-engine/keystone.git
 cd keystone && mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON -DLLVM_TARGETS_TO_BUILD="all" -G "Unix Makefiles" .. && make -j2
+cd ../bindings/python && python2 setup.py install
 echo
 
 echo "[*] Building Capstone"

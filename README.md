@@ -40,3 +40,15 @@ How to use:
 ```
 如需要自定义，可以参考我这篇文章:
 http://homura.cc/blog/archives/145
+
+## Update
+
+- 新增对x86构架的支持
+- 新增规则一键生成的脚本
+- 修复keystone没有正确安装python binding的错误
+- 修复patch中syscall参数传递的错误
+- 修复地址转化为hex的错误
+
+## Hint
+
+- 请务必使用python2

@@ -3,7 +3,7 @@ homura_pwn_waf
 Use patchkit to patch the ELF(Add seccomp rules)
 Dependencies
 ----
-- Run `./deps.sh` to automatically install these.
+- Run `pip2 install -r requirements.txt` to automatically install these.
   - Capstone Engine - https://github.com/aquynh/capstone.git
   - Keystone Engine - https://github.com/keystone-engine/keystone.git
   - Unicorn Engine  - https://github.com/unicorn-engine/unicorn.git

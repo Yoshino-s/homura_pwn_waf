@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import binascii
 import difflib
 import itertools
-import sys
+import sys2
 
 from core.binary import Binary
 from util import cfg
